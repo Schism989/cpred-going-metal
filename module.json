@@ -1,11 +1,11 @@
 {
   "id": "going-metal-cpred",
   "title": "Going Metal (CPRED)",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compatibility": {
     "minimum": "11",
     "verified": "11",
-    "maximum": "11"
+    "maximum": "12"
   },
   "relationships": {
     "systems": [
@@ -18,21 +18,23 @@
   },
   "authors": [
     {
-      "name": "Schism"
+      "name": "Schism",
+      "flags": {}
     },
     {
       "name": "R. Talsorian Games",
-      "url": "https://rtalsoriangames.com/"
+      "url": "https://rtalsoriangames.com/",
+      "flags": {}
     }
   ],
   "packs": [
     {
       "name": "going-metal-items",
       "label": "Going Metal (Items)",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp",
       "path": "packs/going-metal-items",
       "type": "Item",
       "system": "cyberpunk-red-core",
-	  "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -41,10 +43,10 @@
     {
       "name": "going-metal-fbc-actors",
       "label": "Going Metal (FBC Actors)",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp",
       "path": "packs/going-metal-fbc-actors",
       "type": "Actor",
       "system": "cyberpunk-red-core",
-	  "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -52,7 +54,7 @@
     }
   ],
   "description": "An attempt to recreate Going Metal in Foundry VTT V11",
-  "url": "https://github.com/Schism989/Going-Metal-v11"
-  "manifest": "https://github.com/Schism989/cpred-going-metal/releases/latest/download/module.json"
+  "url": "https://github.com/Schism989/cpred-going-metal",
+  "manifest": "https://github.com/Schism989/cpred-going-metal/releases/latest/download/module.json",
   "download": "https://github.com/Schism989/cpred-going-metal/releases/latest/download/going-metal-cpred.zip"
 }
